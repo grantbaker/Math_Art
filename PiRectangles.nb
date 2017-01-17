@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      8808,        259]
-NotebookOptionsPosition[      7684,        216]
-NotebookOutlinePosition[      8027,        231]
-CellTagsIndexPosition[      7984,        228]
+NotebookDataLength[      5724,        153]
+NotebookOptionsPosition[      5345,        135]
+NotebookOutlinePosition[      5676,        150]
+CellTagsIndexPosition[      5633,        147]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -97,126 +97,45 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"Export", "[", 
-  RowBox[{
-  "\"\<S:\\\\Grant \
-Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi10.pdf\>\"", ",", 
-   RowBox[{"PiRectangles", "[", "10", "]"}]}], "]"}]], "Input",
+ RowBox[{"PiRectangles", "[", "500", "]"}]], "Input",
  CellChangeTimes->{{3.68796452841889*^9, 3.6879645549462214`*^9}, 
    3.6879645850608683`*^9, {3.687964723830875*^9, 3.6879647239713573`*^9}, {
    3.687964826791711*^9, 3.6879648390017138`*^9}, {3.687964874907209*^9, 
    3.687964881669536*^9}, {3.687965076158924*^9, 3.687965095115843*^9}, {
    3.687965164032584*^9, 3.6879651781049747`*^9}, {3.6879653600522423`*^9, 
-   3.687965360371357*^9}, {3.6879805517065625`*^9, 3.6879805604875298`*^9}, {
-   3.687980632295945*^9, 3.6879806358705845`*^9}, {3.68798070879417*^9, 
-   3.687980719559272*^9}, {3.6879807818467507`*^9, 3.687980788232092*^9}}],
+   3.687965360371357*^9}}],
 
-Cell[BoxData["0``7.451544993495968"], "Print",
- CellChangeTimes->{{3.6879658590940247`*^9, 3.687965882010116*^9}, {
-   3.68798054785843*^9, 3.6879805693939657`*^9}, 3.687980647831938*^9, {
-   3.6879807283824253`*^9, 3.6879807409780035`*^9}, 3.6879808196006393`*^9}],
-
-Cell[BoxData["\<\"S:\\\\Grant \
-Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi10.pdf\"\>"], "Output",
- CellChangeTimes->{
-  3.687965882026924*^9, {3.6879805478780804`*^9, 3.6879805706136956`*^9}, 
-   3.6879806530815935`*^9, {3.68798072852306*^9, 3.6879807461971965`*^9}, 
-   3.6879808248510866`*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
+Cell[BoxData["0.00826`4.368525040816356"], "Print",
+ CellChangeTimes->{{3.6879658590940247`*^9, 3.687965882010116*^9}}],
 
 Cell[BoxData[
- RowBox[{"Export", "[", 
-  RowBox[{
-  "\"\<S:\\\\Grant Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi100.pdf\>\
-\"", ",", 
-   RowBox[{"PiRectangles", "[", "100", "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.687980797748514*^9, 3.687980812042861*^9}}],
-
-Cell[BoxData["0``7.451544993495973"], "Print",
- CellChangeTimes->{3.687980824866699*^9}],
-
-Cell[BoxData["\<\"S:\\\\Grant \
-Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi100.pdf\"\>"], "Output",
- CellChangeTimes->{3.6879808300758777`*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Export", "[", 
-  RowBox[{
-  "\"\<S:\\\\Grant \
-Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi1000.pdf\>\"", ",", 
-   RowBox[{"PiRectangles", "[", "1000", "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.6879808017713394`*^9, 3.687980813105462*^9}}],
-
-Cell[BoxData["0.0156318`5.64555398335506"], "Print",
- CellChangeTimes->{3.687980830107147*^9}],
-
-Cell[BoxData["\<\"S:\\\\Grant \
-Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi1000.pdf\"\>"], "Output",
- CellChangeTimes->{3.6879808354052515`*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Export", "[", 
-  RowBox[{
-  "\"\<S:\\\\Grant Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi10000.pdf\
-\>\"", ",", 
-   RowBox[{"PiRectangles", "[", "10000", "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.6879808025995345`*^9, 3.6879808143091*^9}}],
-
-Cell[BoxData["0.0824504`6.367737760418551"], "Print",
- CellChangeTimes->{3.6879808355238547`*^9}],
-
-Cell[BoxData["\<\"S:\\\\Grant \
-Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi10000.pdf\"\>"], "Output",
- CellChangeTimes->{3.6879808408780546`*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Export", "[", 
-  RowBox[{
-  "\"\<S:\\\\Grant \
-Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi100000.pdf\>\"", ",", 
-   RowBox[{"PiRectangles", "[", "100000", "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.687980804537199*^9, 3.687980815527954*^9}}],
-
-Cell[BoxData["0.6942438`7.293057003433844"], "Print",
- CellChangeTimes->{3.687980841587943*^9}],
-
-Cell[BoxData["\<\"S:\\\\Grant \
-Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi100000.pdf\"\>"], "Output",
- CellChangeTimes->{3.6879808485683813`*^9}]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Export", "[", 
-  RowBox[{
-  "\"\<S:\\\\Grant \
-Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi1000000.pdf\>\"", ",", 
-   RowBox[{"PiRectangles", "[", "1000000", "]"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.687980806580243*^9, 3.6879808171473217`*^9}}],
-
-Cell[BoxData["7.3932532`8.320380573422668"], "Print",
- CellChangeTimes->{3.6879808559862785`*^9}],
-
-Cell[BoxData["\<\"S:\\\\Grant \
-Baker\\\\github\\\\Math_Art\\\\pi_generated\\\\pi1000000.pdf\"\>"], "Output",
- CellChangeTimes->{3.6879808785529995`*^9}]
+ GraphicsBox[LineBox[CompressedData["
+1:eJx91olu2kAQBmBzJhhscDDkIOn1SH2EPkD7upUqVamSkqMpkDbEAQzujvT/
+yq8RKpL1WcPsMbtrw/tPXz5+rkdRtKxFkamfRriq8KH2iXBvNsNVhHtq7bfi
+QXAtWlyvbrg2IU4tthObiNMSc6B+PIuHMiJqOTvkmgXidBW0edEFctWteBuu
+VmhHHzA3eoVa6DXy6LfgoXiNceiPcLVDnE7RTo3FGfpRM3EZTMQHxKnV1RNv
+gql477S6xqLNeyBeOqdoR78Hc/HS+TV4Ido6jERbt2Pxymn9TETbp1PR8s5F
+q/NMnKId/e20vA/iAu3oDHn0T3DonIgvWEdaYJ50hX2iBdZJTcXH4JH44pxj
+HWkh/Zp/sY5qKs5Qh5qKU9n3AdY9EW8wb3oX7ItTxOkc/agn4gLrRm+xD3SB
+daRzxOkz2tFHp69/jnmqiejrtbqa4hTPGf2F55jac9Z1tsWfiFNb95ZoeR3R
+6j4QZ1hHaufwULyTeSc4903x3mlxe9fSh+r1vdhCvzXRxm2Itu72XqdLp72z
+n0T/vq6QS62fF3El7Z6QsxZ9/gx1UMsrxDnmRQv0XcgYpbjB/UbG1/q2GJeW
+qJXqb1mJOW/F0rnBOVG3MtYafdEK39EN9oXax9rRNfqlJfKo1dBxtkVbg1S0
+fhJnJlaIUxunL9rvfkfcoR21z0C0GoZiG/G2y6P2zKRizWk1x6LNuyvaPGKx
+xLxKqS8Wt1gXWsfc6L79jcSlc9/+16PX/2JV9focrXGONyL/M9Fn5NJC2ulz
+RXc412oN62E2MQfq/7+1EKcR1lpdI846eK5r+L7E93xG9D+j5vIZ0PVtIJfW
+sBc0dto5OfyPbZxT2tkT64o9p/XTF/suljgzzJV2MQ5NsMY0xj1NMTa1+JE4
+RB612Fi0ayRmuM8kb+A8FcfuGjpPUDv1+b7NALn0GHGaIp7K93pZ/FzMnLbH
+b8QOxqYN9EObmAutYVxaR120kvdGhj0biE3p9xh7kos9Z4a6qfUxEUfoZyT9
+qTna5dL+VPTnwc7dWzFHXi7578QxxqE2zwvR1uhMHGLedOJiY+TRCdrSHPFc
++j0S++iHZu6K0Y7ymaA9xGnfmWIudN/54/n8B3vyc8c=
+   "]]]], "Output",
+ CellChangeTimes->{3.687965882026924*^9}]
 }, Open  ]]
 },
-WindowSize->{958, 1021},
-WindowMargins->{{Automatic, 1}, {Automatic, 27}},
-FrontEndVersion->"10.4 for Microsoft Windows (64-bit) (April 11, 2016)",
+WindowSize->{958, 1022},
+WindowMargins->{{Automatic, 1}, {1, 26}},
+FrontEndVersion->"11.0 for Linux x86 (64-bit) (September 21, 2016)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -230,36 +149,11 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 2901, 74, 252, "Input"],
+Cell[558, 20, 2901, 74, 286, "Input"],
 Cell[CellGroupData[{
-Cell[3484, 98, 796, 13, 31, "Input"],
-Cell[4283, 113, 265, 3, 23, "Print"],
-Cell[4551, 118, 302, 5, 31, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[4890, 128, 270, 6, 31, "Input"],
-Cell[5163, 136, 88, 1, 23, "Print"],
-Cell[5254, 139, 149, 2, 31, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[5440, 146, 274, 6, 31, "Input"],
-Cell[5717, 154, 94, 1, 23, "Print"],
-Cell[5814, 157, 150, 2, 31, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[6001, 164, 274, 6, 31, "Input"],
-Cell[6278, 172, 97, 1, 23, "Print"],
-Cell[6378, 175, 151, 2, 31, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[6566, 182, 276, 6, 31, "Input"],
-Cell[6845, 190, 95, 1, 23, "Print"],
-Cell[6943, 193, 152, 2, 31, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[7132, 200, 280, 6, 31, "Input"],
-Cell[7415, 208, 97, 1, 23, "Print"],
-Cell[7515, 211, 153, 2, 88, "Output"]
+Cell[3484, 98, 462, 7, 32, "Input"],
+Cell[3949, 107, 119, 1, 24, "Print"],
+Cell[4071, 110, 1258, 22, 447, "Output"]
 }, Open  ]]
 }
 ]
